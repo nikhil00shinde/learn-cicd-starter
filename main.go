@@ -22,7 +22,7 @@ type apiConfig struct {
 }
 
 //go:embed static/*
-var staticFiles embed.FS
+va staticFiles embed.FS
 
 func main() {
 	err := godotenv.Load(".env")
